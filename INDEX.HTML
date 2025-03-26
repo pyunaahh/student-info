@@ -4,42 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Student Information</title>
-    <link rel="stylesheet" href="styles.css">
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+    </style>
 </head>
 <body>
-    <div class="container">
-        <h2>Student Information</h2>
+    <h1>Student Information</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Course</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Juan Dela Cruz</td>
+                <td>20</td>
+                <td>Computer Engineering</td>
+            </tr>
+            <tr>
+                <td>Maria Santos</td>
+                <td>19</td>
+                <td>Information Technology</td>
+            </tr>
+            <tr>
+                <td>Carlos Reyes</td>
+                <td>21</td>
+                <td>Software Engineering</td>
+            </tr>
+        </tbody>
+    </table>
 
-        <table id="studentTable">
-            <thead>
-                <tr class="blue-row">
-                    <th>Name</th>
-                    <th>Age</th>
-                    <th>Course</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr class="yellow-row">
-                    <td>Juan Dela Cruz</td>
-                    <td>20</td>
-                    <td>Computer Engineering</td>
-                </tr>
-                <tr>
-                    <td>Maria Santos</td>
-                    <td>19</td>
-                    <td>Information Technology</td>
-                </tr>
-                <tr class="yellow-row">
-                    <td>Carlos Reyes</td>
-                    <td>21</td>
-                    <td>Software Engineering</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
+    <h2>Subjects</h2>
+    <ul>
+        <li>Programming</li>
+        <li>Data Structures</li>
+        <li>web development</li>
+        <li>Database management</li>
+    </ul>
 </body>
 </html>
-
-
-
-...

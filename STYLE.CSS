@@ -1,4 +1,4 @@
-/* Basic Styles */
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f9;
@@ -20,7 +20,7 @@ h2 {
     color: #333;
 }
 
-/* Table Styles */
+
 table {
     width: 100%;
     border-collapse: collapse;
@@ -36,13 +36,13 @@ th, td {
     text-align: center;
 }
 
-/* Blue Row (Header) */
+
 .blue-row {
     background-color: blue;
     color: white;
 }
 
-/* Yellow Row (Second and Fourth) */
+
 .yellow-row {
     background-color: yellow;
 }
